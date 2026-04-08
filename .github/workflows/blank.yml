@@ -1,0 +1,13 @@
+name: GitHub Action Demo
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "GitHub Action workflow executed successfully!"
